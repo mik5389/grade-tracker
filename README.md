@@ -17,6 +17,8 @@ A private, browser-based grade tracker configured for Fall 2026 MATH 470, MATH 5
 
 Grades are stored in the browser using `localStorage`; they are not committed to GitHub. Use the tracker's **Export backup** button regularly. Data entered on one browser or device does not automatically appear on another device. Use **Export backup** and **Import backup** to move the data.
 
+When a professor reports a curved or otherwise adjusted final course grade, open that course and select **Set official final grade**. The official grade will override the calculated letter grade and GPA on every dashboard while preserving the original calculation for comparison.
+
 ## Updating the site
 
 Replace `index.html` in the repository and commit the change. GitHub Pages will redeploy automatically.
